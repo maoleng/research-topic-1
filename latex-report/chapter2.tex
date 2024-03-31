@@ -1,0 +1,33 @@
+\section{Previous approaches to fraud detection in online payments}
+\hspace{\parindent}
+Over the years, various approaches have been employed to detect fraudulent activities in online payments. These approaches range from traditional rule-based systems to more sophisticated machine learning algorithms. While each approach has its strengths and limitations, they collectively contribute to the ongoing efforts to combat fraud in the digital payment ecosystem.\\
+
+\subsection{Rule-based Systems}
+\hspace{\parindent}
+Static Thresholds: One of the earliest methods for fraud detection involved setting static thresholds on specific transaction attributes, such as transaction amount or frequency. Transactions exceeding these thresholds are flagged as potentially fraudulent. However, static thresholds are often rigid and fail to adapt to changing fraud patterns, leading to high false positive rates and missed fraud instances.
+
+Heuristics and Business Rules: Rule-based systems may incorporate domain-specific heuristics and business rules to identify suspicious transactions. These rules are typically based on expert knowledge and historical fraud patterns. While effective in some cases, these rules may not capture all instances of fraud and can be circumvented by sophisticated fraudsters.
+
+\subsection{Supervised Machine Learning}
+\hspace{\parindent}
+Classification Algorithms: Supervised machine learning algorithms, such as logistic regression, decision trees, and random forests, have been widely used for fraud detection in online payments. These algorithms learn to classify transactions as either legitimate or fraudulent based on labeled training data. While effective in capturing known fraud patterns, supervised methods may struggle to generalize to new and evolving fraud tactics.
+
+Feature Engineering: Feature engineering plays a crucial role in supervised fraud detection systems, where relevant features extracted from transaction data are used as input to the learning algorithms. Common features include transaction amount, location, device information, and user behavior patterns. However, manually crafting informative features can be labor-intensive and may not capture all relevant aspects of fraud.
+
+\subsection{Anomaly Detection}
+\hspace{\parindent}
+Unsupervised Learning: Anomaly detection techniques aim to identify deviations from normal behavior without relying on labeled training data. Unsupervised learning algorithms, such as clustering and density estimation, are often used to detect anomalous transactions. These algorithms flag transactions that significantly differ from the majority of transactions in terms of their features or patterns. While unsupervised methods can detect previously unseen fraud patterns, they may also generate false alarms for legitimate transactions with uncommon characteristics.
+
+Semi-supervised Learning: Semi-supervised approaches combine elements of supervised and unsupervised learning, leveraging both labeled and unlabeled data to detect anomalies. These methods can learn from both known instances of fraud and normal behavior, enhancing their ability to detect subtle and evolving fraud patterns. However, semi-supervised approaches may require large amounts of labeled data to achieve satisfactory performance.
+
+\subsection{Feature Engineering and Transaction Profiling}
+\hspace{\parindent}
+Feature Engineering: Feature engineering involves selecting and transforming relevant features from transaction data to improve model performance. Features such as transaction amount, frequency, location, device information, and user behavior patterns can provide valuable insights into fraudulent activity.
+
+Transaction Profiling: Transaction profiling techniques analyze historical transaction data to create profiles or behavior patterns for individual users or entities. Deviations from these profiles can be indicative of fraudulent behavior and used as signals for fraud detection.
+
+\subsection{Deep Learning Approaches}
+\hspace{\parindent}
+Neural Networks: Deep neural networks, including feedforward neural networks, recurrent neural networks (RNNs), and convolutional neural networks (CNNs), have been applied to fraud detection tasks. These models can automatically learn hierarchical representations from raw transaction data, capturing complex patterns and relationships.
+
+Autoencoders: Autoencoder neural networks are unsupervised learning models that learn to reconstruct input data. They can be used for anomaly detection by training on normal transaction data and identifying instances where the reconstruction error is high, indicating potential fraud.

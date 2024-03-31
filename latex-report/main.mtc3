@@ -1,0 +1,8 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Basic graph theory}{\reset@font\mtcSfont 8}{section.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Graph, vertex and edge}{\reset@font\mtcSSfont 8}{subsection.3.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}Undirected Graph and Directed Graph}{\reset@font\mtcSSfont 8}{subsection.3.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.3}Degree, path and cycle}{\reset@font\mtcSSfont 9}{subsection.3.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Graph Neural Network}{\reset@font\mtcSfont 9}{section.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}Why do Convolutional Neural Networks (CNNs) fail on graphs?}{\reset@font\mtcSSfont 9}{subsection.3.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}The simplest GNN}{\reset@font\mtcSSfont 10}{subsection.3.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}GNN Predictions by Pooling Information}{\reset@font\mtcSSfont 11}{subsection.3.2.3}}

@@ -1,0 +1,96 @@
+\documentclass[12pt,a4paper,2sides]{report}
+\usepackage{lib/lib} %import libary from lib.sty %
+%Thêm thư viện ở dưới dòng này.
+\usepackage{float}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+
+\onehalfspacing %Giãn dòng phân nửa.
+%===============================
+%Thêm dữ liệu vào intro.tex qua dòng lệnh.
+%Addition into data at intro.tex file via command.
+\newcommand{\khoa}{Information Technology} %TÊN NGÀNH, KHOA.
+\newcommand{\de}{Detecting Fraud in Online Payments with Graph Neural Networks}
+\newcommand{\monhoc}{Research Topics 1} %TÊN MÔN HỌC 
+\newcommand{\chuyennganh}{Computer Science}
+\newcommand{\gvhd}{PhD. Le Van Vang} %TÊN CỦA GIẢNG VIÊN HƯỚNG DẪN
+\newcommand{\tacgia}{Bui Huu Loc - 521H0504} %TÊN CỦA NGƯỜI VIẾT
+\newcommand{\nam}{2024}
+%Acknowledge page (the second page in docs)
+% \newcommand{\loicamon}{
+% 		Với những kiến thức em tích lũy được qua những ngày học tập, đây là kết quả của quá trình học tập của em và nhóm cùng đưa ra ý kiến và thảo luận, tổng hợp kiến thức lại với nhau.\\
+% }
+%tabl
+
+\begin{document}	
+\pagenumbering{roman}
+
+\pagenumbering{gobble}
+\include{cover1}
+\newpage
+\include{cover2}
+\newpage
+\pagenumbering{roman}
+\setcounter{page}{1}
+\include{intro}
+
+\newpage
+\clearpage
+%--------------Mục lục
+\dominitoc
+\tableofcontents %pages
+%if you want to show table of contents of chapter, set \dominitoc under line \chapter{name}
+%\listoffigures %pictures
+\listoftables
+\listoffigures
+\newpage
+\clearpage
+
+%\setcounter{page}{-1}
+%\listoftables
+%\begin{figure/tables}
+%\centering
+%Sourcode/Import
+%\caption
+%\end{fugure/tables}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\clearpage
+%\Control to file to create subfile.\\
+%\input{part1.tex}
+
+% chapter 1
+\chapter{Introduction}
+\include{chapter1}
+
+% chapter 2
+\chapter{Literature Review}
+\include{chapter2}
+
+
+% chapter 3
+\chapter{Theoretical Basis}
+\include{chapter3}
+
+% chapter 4
+\chapter{Methodology}
+\include{chapter4}
+
+
+% chapter 5
+\chapter{Results and Data Analysis}
+
+\include{chapter5}
+
+\include{references}
+
+\end{document}

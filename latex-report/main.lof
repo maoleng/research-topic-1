@@ -1,0 +1,27 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{1}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Literature Review}{4}{chapter.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Theoretical Basis}{7}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Graph}}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Undirected Graph and Directed Graph}}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces CNN}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A basic Graph Neural Network (GNN) consists of a single layer. It takes a graph as input, and each component (V, E, U) is updated by a Multilayer Perceptron (MLP) to generate a new graph. Each function subscript denotes a distinct function corresponding to a different attribute of the graph at the nth layer of the GNN model.}}{11}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Methodology}{14}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Unique Values}}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Missing Values}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Transfers and cash-outs as dominant contributors, representing 42.4\% and 34.5\% of the total transaction amount respectively. Payments constitute a smaller portion at 2.5\%, while debit transactions have minimal impact. Cash-ins also play a notable role, contributing 20.7\% to the overall transaction volume}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of the distribution of transaction amounts between fraudulent and non-fraudulent transactions, aiding in understanding patterns and differences in transaction behavior}}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Proportion of Fraud vs. Non-Fraud Transactions}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The correlation between numerical features in the dataset, with warmer colors indicating stronger positive correlations and cooler colors representing stronger negative correlations. Values closer to 1 or -1 signify higher correlation, while values closer to 0 indicate weaker correlation. This visualization aids in identifying potential relationships and dependencies between different variables in the dataset}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualize the GNN}}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graph Neural Network Architecture}}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Training Process for the Graph Neural Network (GNN) Model}}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Process of Anomaly Detection and Fraud Identification using the Isolation Forest Algorithm}}{25}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Results and Data Analysis}{26}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Confusion Matrix}}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ROC Analysis}}{29}{figure.caption.29}%
